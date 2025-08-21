@@ -14,10 +14,3 @@ class Manager:
         processor.find_text_emotion()
         processor.find_weapons()
         return processor.df.to_dict(orient="records")
-
-#
-# async def main():
-#     data = await Manager.code_flow()
-#     print(data)
-#
-# asyncio.run(main())
